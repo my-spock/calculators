@@ -23,7 +23,6 @@ BMI = (Weight in Pounds / (Height in inches^2 ) ) x 703
 
 Loans and Payments
 --------------------------
-(compounded) 
 ![loan-piggy](http://refinanceratestodaygroupco.com/images/geparuto.jpg)
 
 **Bonus Provide an Amortization Schedule by month
