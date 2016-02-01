@@ -26,9 +26,9 @@ Loans and Payments
 P = ( r * A ) / ( 1 - (1+r)-N) 
 
 Where, 
-P = Payment Amount 
-A = Loan Amount  
-r = Rate of Interest 
+- P = Payment Amount 
+- A = Loan Amount  
+- r = Rate of Interest 
 
 (compounded) 
 ![loan-piggy](http://refinanceratestodaygroupco.com/images/geparuto.jpg)
