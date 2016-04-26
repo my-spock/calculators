@@ -1,0 +1,28 @@
+<html ng-app='ng-scope'>
+<head>
+    <meta charset="UTF-8">
+    <title>Calculators</title>
+</head>
+
+<body ng-controller='CalculatorController as cc'>
+    <button ng-click='showController("mk")'>Miles-Kilometers</button>
+    <button ng-click='showController("fc")'>Fahrenheit-Celsius</button>
+    <button ng-click='showController("pk")'>Pounds-Kilograms</button>
+    <button ng-click='showController("fi")'>Feet-Inches</button>
+    <button ng-click='showController("bmi")'>BMI</button>
+    
+    <div ng-controller='MileKilometer as mk' ng-show='cc.show === "mk"'>
+        <form>
+            <input type="number" placeholder='{{mk.miles}}'> <span>{{' ' + '=' + ' '}}</span>
+            <input type="number" placeholder="{{mk.kilometers}}">
+        </form>
+    </div>
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+    <script src='app/app.js'></script>
+   
+    <!--controller linking-->
+    <script src='app/component/CalculatorController.js'></script>
+</body>
+</html>
